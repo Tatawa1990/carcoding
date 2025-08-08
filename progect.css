@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url("car.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0%;
+}
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+}
+.nav {
+    margin-top: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.auto{
+    margin-top: 30px;
+    font-size: 20px;
+}
+a{
+    margin: 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    color: rgb(105, 132, 182);
+}
+a:active{
+    color: rgb(237, 227, 116);
+}
+.nav button {
+    height: 50px;
+    width: 170px;
+    border-radius: 15px;
+    border-style: solid;
+    color: rgb(255, 255, 255);
+    background-color: rgb(46, 145, 244);
+    border-color: rgb(46, 145, 244);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav button:hover{
+    background-color: rgb(125, 181, 211);
+}
+#main{
+    margin-left: 300px;
+    margin-top: 150px;
+    color: white;
+}
+#main button {
+    height: 40px;
+    width: 160px;
+    border-radius: 15px;
+    border-style: solid;
+    color: rgb(255, 255, 255);
+    background-color: rgb(46, 145, 244);
+    border-color: rgb(46, 145, 244);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#main button:hover{
+    background-color: rgb(125, 181, 211);
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(63, 73, 141);
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    position: relative;
+    top: 360px;
+    bottom: 0px;
+    padding: 15px;
+}
+footer label{
+    color: rgb(0, 201, 237);
+}
+footer p {
+    color: rgb(255, 255, 255);
+}
+#graound{
+    display: flex;
+    justify-content: center;
+}
